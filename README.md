@@ -5,7 +5,7 @@ which was accepted at ICLR 2018's workshop track. This paper proposes an adversa
 The architecture differs from the work of Mathieu et al. (https://arxiv.org/abs/1611.03383) by utilizing a regular auto-encoder instead of a VAE.
 Also, the adversarial setup used in this work was far more easier to stabilize and train than the one used by  Mathieu et al.
 
-The repository provides files necessary to train this architecture on MNIST dataset, while it can be generalised to other datasets in our paper by changing the **data_loader** and **networks** files.
+The repository provides files necessary to train this architecture on MNIST dataset, while it can be generalised to other datasets in the paper by changing the **data_loader** and **networks** files.
 
 The code has been tested with the following python interpreter and library versions:
 
